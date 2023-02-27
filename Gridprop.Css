@@ -1,0 +1,123 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.box {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  color: #000;
+}
+
+.one {
+  background-color: rgb(167, 252, 167);
+  height: 40%;
+  width: 98%;
+  padding-left:2%;
+  padding-top:1%;
+}
+
+.two {
+  background-color: rgb(253, 212, 136);
+  height: 60%;
+  width: 57.6%;
+  margin-top:25%;
+  padding-left:2%;
+  padding-top: 1%;
+  
+}
+
+.three {
+   position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 35%;
+    height: 75%;
+    background-color: lightblue;
+    padding-left:2%;
+    padding-top:1%;
+}
+
+.four {
+  background-color: rgb(252, 252, 146);
+  height: 45%;
+  width: 29%;
+  position: absolute;
+  top: 45.70%;
+  left: 13%;
+  transform: translate(-50%, -50%);
+}
+
+.four p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left:10%;
+  padding-top:5%;
+}
+
+
+.four .sub-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.four .sub-box {
+  background-color: #fff;
+  width: 48%;
+  height: 48%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.five {
+  background-color: rgb(247, 142, 142);
+  height: 45%;
+  width: 29%;
+  position: absolute;
+  top: 45.70%;
+  left: 45%;
+  transform: translate(-50%, -50%);
+}
+
+.five p {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding-left:10%;
+  padding-top:5%;
+}
+
+.five .sub-boxes {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+  height: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.five .sub-box {
+  background-color: #fff;
+  width: 48%;
+  height: 48%;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  
+}
